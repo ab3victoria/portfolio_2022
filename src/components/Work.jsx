@@ -17,19 +17,68 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
             {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            <div
+            style={{ backgroundImage: `url(https://i.postimg.cc/L8mLGJrK/githubuserimg.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Github Users Application
               </span>
               <div className='pt-8 text-center'>
+                <a target="_blank" href='https://github-user-app-acf1b.web.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Website
+                  </button>
+                </a>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(https://i.postimg.cc/k5b7FZv7/shop.png)` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Online Shopping App
+              </span>
+              <div className='pt-8 text-center'>
+                <a target="_blank" href='https://vikashop2202.herokuapp.com/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Website
+                  </button>
+                </a>
+                <a href='/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div
+            style={{ backgroundImage: `url(https://i.postimg.cc/SsMzQs1r/hangmanimg.png)` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Hangman Application
+              </span>
+              <div className='pt-8 text-center'>
+                <a target="_blank" href='https://hangman-react-app-ec3c0.web.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Website
                   </button>
                 </a>
                 <a href='/'>
@@ -41,18 +90,18 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/pXNxDwF6/groceryimg.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Grocery List Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a target="_blank" href='https://grocery-react-app.web.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Website
                   </button>
                 </a>
                 <a href='/'>
@@ -65,45 +114,23 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/0yYpk1YR/todolistimg.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Todo List Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a target="_blank" href='https://todo-react-app-806da.web.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Website
                   </button>
                 </a>
                 <a href='/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${realEstate})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+          
                     Code
                   </button>
                 </a>
@@ -112,18 +139,18 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/DfPhXhGy/triviaimg.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Quiz Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a target="_blank" href='https://trivia-react-app.firebaseapp.com'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
+                    Website
                   </button>
                 </a>
                 <a href='/'>
@@ -134,29 +161,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${realEstate})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>

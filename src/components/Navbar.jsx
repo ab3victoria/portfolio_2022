@@ -12,7 +12,8 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#051233] text-gray-300'>
             <div>
-                <img src={Logo} alt="Logo" style={{ width: '50px' }} />
+                {/* <img src={Logo} alt="Logo" style={{ width: '50px' }} /> */}
+                <h4 style={{ fontSize: '30px',color: '#FFFFFF', margin:'20px' }}>VA</h4>
             </div>
             {/* Menu */}
             <ul className='hidden md:flex'>
@@ -74,22 +75,22 @@ const Navbar = () => {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href='https://www.linkedin.com/in/victoria-ablogeev-75b826202/'>
+                        <a target="_blank" className='flex justify-between items-center w-full text-gray-300' href='https://www.linkedin.com/in/victoria-ablogeev-75b826202/'>
                             Linkdin <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3333]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href='https://github.com/ab3victoria'>
+                        <a target="_blank" className='flex justify-between items-center w-full text-gray-300' href='https://github.com/ab3victoria'>
                             Github <FaGithub size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                        <a target="_blank" className='flex justify-between items-center w-full text-gray-300' href="mailto: ab3victoria@gmail.com">
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                        <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                        <a target="_blank" className='flex justify-between items-center w-full text-gray-300' href='https://drive.google.com/file/d/18cjImDSsva5p1ARdTge9dHtem5yXcEBW/view?usp=sharing'>
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>

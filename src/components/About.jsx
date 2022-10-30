@@ -17,11 +17,13 @@ const About = () => {
                     </div>
                     <div>
                         <p>
-                            I'm a Computer Science graduate. Sicking a position as a fullstack devleoper.
+                            I'm a recent computer science graduate with a passion for developing web applications. 
+                            Seeking a position as a fullstack devleoper to grow my skillset while contributing to the growth of my team.
                         </p>
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }
