@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Contact = () => {
+
   return (
     <div name='contact' className='w-full h-screen bg-[#051233] flex justify-center items-center p-4'>
         <form method='POST' action="https://vikvik2020.getform.com/1mpw8" className='flex flex-col max-w-[600px] w-full'>

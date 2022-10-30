@@ -3,6 +3,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import Typed from 'react-typed';
 
+
 const Home = () => {
     return (
         <div name='home' className='w-full h-screen bg-[#051233]'>
