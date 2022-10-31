@@ -32,7 +32,7 @@ const Work = () => {
                     Website
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/ab3victoria/github_users_app'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -56,7 +56,7 @@ const Work = () => {
                     Website
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/ab3victoria/electronics_shop'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -81,7 +81,7 @@ const Work = () => {
                     Website
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/ab3victoria/hangman_react_app'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -89,22 +89,24 @@ const Work = () => {
               </div>
             </div>
           </div>
+           
+          {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(https://i.postimg.cc/pXNxDwF6/groceryimg.png)` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/DfPhXhGy/triviaimg.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Grocery List Application
+                Quiz Application
               </span>
               <div className='pt-8 text-center'>
-                <a target="_blank" href='https://grocery-react-app.web.app/'>
+                <a target="_blank" href='https://trivia-react-app.firebaseapp.com'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Website
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/ab3victoria/quiz_app_react'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -128,7 +130,7 @@ const Work = () => {
                     Website
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/ab3victoria/todo_list_app'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
           
                     Code
@@ -139,21 +141,21 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(https://i.postimg.cc/DfPhXhGy/triviaimg.png)` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/pXNxDwF6/groceryimg.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Quiz Application
+                Grocery List Application
               </span>
               <div className='pt-8 text-center'>
-                <a target="_blank" href='https://trivia-react-app.firebaseapp.com'>
+                <a target="_blank" href='https://grocery-react-app.web.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Website
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/ab3victoria/grocery_list_app'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
