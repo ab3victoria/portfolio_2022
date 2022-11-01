@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#051233] text-gray-300'>
             <div>
-            <Link className='pointer-link' smooth={true} duration={500} to="home"><img src={"https://i.postimg.cc/HnWsybwh/VA.png"} alt="Logo" style={{ width: '90px' }} /></Link>
+            <Link className='pointer-link' smooth={true} duration={500} to="home"><img src={"https://i.postimg.cc/HnWsybwh/VA.png"} alt="Logo" style={{ width: '75px' }} /></Link>
                 {/* <a href='/' style={{ fontSize: '30px',color: '#db2777', margin:'20px' }}>VA</a> */}
             </div>
             {/* Menu */}
