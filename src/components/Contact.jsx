@@ -1,3 +1,4 @@
+import "./styles.css";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -23,9 +24,11 @@ const Contact = () => {
 
   return (
     <div name='contact' className='w-full h-screen bg-[#051233] flex justify-center items-center p-4'>
+      <div className='reveal'>
     <form className='flex flex-col max-w-[600px] w-full' 
     ref={form} 
     >
+
       <div className='pb-8'>
                <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
                <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email - ab3victoria@gmail.com</p>
@@ -36,6 +39,7 @@ const Contact = () => {
       <button onClick={sendEmail} className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
       
     </form>
+    </div>
     </div>
   );
  
