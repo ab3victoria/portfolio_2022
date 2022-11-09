@@ -44,9 +44,9 @@ const About = () => {
                             I enjoy learning and improving my technical knowledge all the time.
                         </p>
                     </div>
-                    <div>
+                    <div >
                     
-                           <img style={{height:'35vh', marginLeft:'80px'}} src={alice} alt='alice' />
+                           <img style={{height:'35vh',width:'50vh'}} src={alice} alt='alice' />
                         
                     </div>
                     <div>
