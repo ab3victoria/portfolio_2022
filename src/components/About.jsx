@@ -1,5 +1,6 @@
 import React from 'react'
 import "./styles.css";
+import alice from '../assets/alice.svg'
 
 const About = () => {
         function reveal() {
@@ -37,9 +38,25 @@ const About = () => {
                             Please take a look around. </p>
                     </div>
                     <div>
-                        <p>
+                    <p>
                             I'm a recent computer science graduate with a passion for developing web applications. 
                             Seeking a position as a fullstack devleoper to grow my skillset while contributing to the growth of my team.
+                            I enjoy learning and improving my technical knowledge all the time.
+                        </p>
+                    </div>
+                    <div>
+                    
+                           <img style={{height:'35vh', marginLeft:'80px'}} src={alice} alt='alice' />
+                        
+                    </div>
+                    <div>
+                    <p className='text-pink-300'>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                            Currently, I volunteer in a leadership program called Alicecode.<br/>
+                            As a Web Instructor, I teach teenage girls HTML,CSS and Javascript.
                         </p>
                     </div>
                 </div>
