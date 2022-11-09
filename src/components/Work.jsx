@@ -15,8 +15,7 @@ const Work = () => {
         </div>
 
 {/* Container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-
+        <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-4'>
             {/* Grid Item */}
             <div
             style={{ backgroundImage: `url(https://i.postimg.cc/L8mLGJrK/githubuserimg.png)` }}
@@ -165,7 +164,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-            {/* Grid Item */}
+            {/* Grid Item-grocery */}
           <div
             style={{ backgroundImage: `url(https://i.postimg.cc/pXNxDwF6/groceryimg.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
