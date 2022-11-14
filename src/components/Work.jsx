@@ -18,7 +18,7 @@ const Work = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-4'>
             {/* Grid Item */}
             <div
-            style={{ backgroundImage: `url(https://i.postimg.cc/L8mLGJrK/githubuserimg.png)` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/vT5Qs5cm/githubdashboard.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -42,7 +42,7 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(https://i.postimg.cc/k5b7FZv7/shop.png)` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/MH3nn7zm/elcetronicsshop.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -65,9 +65,34 @@ const Work = () => {
             </div>
           </div>
 
+          <div
+            style={{ backgroundImage: `url(https://i.postimg.cc/W1jvMRCh/Jobs-Dashboard.png)` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Jobs Dashboard
+              </span>
+              <div className='pt-8 text-center'>
+                <a target="_blank" rel="noreferrer" href='https://jobs-dashboard-229a5.firebaseapp.com/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Website
+                  </button>
+                </a>
+                <a target="_blank" rel="noreferrer" href='https://github.com/ab3victoria/jobs-dashboard'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+          
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
 
           <div
-            style={{ backgroundImage: `url(https://i.postimg.cc/SsMzQs1r/hangmanimg.png)` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/0Nt1Rcnn/hangmangame.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -92,7 +117,7 @@ const Work = () => {
            
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(https://i.postimg.cc/kGXSPZmJ/triviaimg.png)` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/T3LR98cx/trivi.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -116,7 +141,7 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(https://i.postimg.cc/0yYpk1YR/todolistimg.png)` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/dtWf0LrQ/todolist1.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -141,7 +166,7 @@ const Work = () => {
           </div>
            {/* Grid Item */}
            <div
-            style={{ backgroundImage: `url(https://i.postimg.cc/FsLywRdR/cocktails.png)` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/pL9DY7jM/cocktailsapp.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -166,7 +191,7 @@ const Work = () => {
           </div>
             {/* Grid Item-grocery */}
           <div
-            style={{ backgroundImage: `url(https://i.postimg.cc/pXNxDwF6/groceryimg.png)` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/7Z0SWRHv/Jobs-Dashboard-1.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
