@@ -42,7 +42,7 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(https://i.postimg.cc/MH3nn7zm/elcetronicsshop.png)` }}
+            style={{ backgroundImage: `url(https://i.postimg.cc/zvcWJfSw/beautyshop.png)` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -56,7 +56,7 @@ const Work = () => {
                     Website
                   </button>
                 </a>
-                <a target="_blank" rel="noreferrer" href='https://github.com/ab3victoria/electronics_shop'>
+                <a target="_blank" rel="noreferrer" href='https://github.com/ab3victoria/beauty-ecommerce-mern-app'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
