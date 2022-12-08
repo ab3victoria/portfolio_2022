@@ -51,9 +51,10 @@ const Work = () => {
                 Online Shopping App
               </span>
               <div className='pt-8 text-center'>
-                <a target="_blank" rel="noreferrer" href='https://vikashop2202.herokuapp.com/'>
+                {/* <a target="_blank" rel="noreferrer" href='https://vikashop2202.herokuapp.com/'> */}
+                <a target="_blank" rel="noreferrer" href='https://youtu.be/KnjUK0N5WbE'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Website
+                    Demo
                   </button>
                 </a>
                 <a target="_blank" rel="noreferrer" href='https://github.com/ab3victoria/beauty-ecommerce-mern-app'>
